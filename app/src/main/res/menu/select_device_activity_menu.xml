@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+
+
+    <item
+            android:id="@+id/check_modifier_state"
+            android:title="@string/action_check"
+
+            android:tooltipText="@string/action_tool_tip"
+            app:showAsAction="always"
+
+
+    />
+
+    <item
+            android:id="@+id/ble_app_connection_status"
+            android:title="@string/action_ble_status_tool_tip"
+            android:icon="@drawable/ic_action_app_not_connected"
+            android:tooltipText="@string/action_ble_status_tool_tip"
+
+
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/action_keyboard"
+            android:icon="@drawable/ic_action_keyboard"
+            android:title="@string/action_keyboard_title"
+            app:showAsAction="always"
+           />
+
+
+
+    <!-- Settings, should always be in the overflow -->
+
+    <item android:id="@+id/action_disconnect"
+          android:title="@string/action_disconnect"
+          app:showAsAction="never"
+
+    />
+    <item android:id="@+id/action_autopair"
+          android:title="@string/action_autopair"
+          android:checkable="true"
+          app:showAsAction="never"
+
+    />
+
+    <item android:id="@+id/action_screen_on"
+          android:title="@string/title_screen_on"
+          android:checkable="true"
+          app:showAsAction="never"
+
+    />
+
+
+
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          app:showAsAction="never"
+
+          />
+</menu>
